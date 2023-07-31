@@ -78,7 +78,7 @@ mobile.addEventListener("input", () => {
     var inputValue4 = mobile.value
     //Mobile number must be 10 digits and start with 08
     if (inputValue4.length > 9 &&
-        inputValue4.length > 11 &&
+        inputValue4.length < 11 &&
         inputValue4.charAt(0) == 0 &&
         inputValue4.charAt(1) == 8) {
         submit.disabled = false
