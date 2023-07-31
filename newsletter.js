@@ -24,12 +24,18 @@ submit.addEventListener("click", () => {
 
 })
 
+var validOne = false
+var validTwo = false
+var validThree = false
+var validFour = false
+
 //Form fields validation
 firstName.addEventListener("input", () => {
     var inputValue1 = firstName.value
     //First name must be longer then 2 characters
     if (inputValue1.length > 2) {
-        submit.disabled = false
+        validOne = true
+        validation
         //Input field is green if input is valid
         firstName.style.backgroundColor = "rgb(106, 143, 50)"
     }
@@ -46,7 +52,8 @@ lastName.addEventListener("input", () => {
     if (inputValue2.length > 2 &&
         inputValue2.length < 20
         ) {
-        submit.disabled = false
+        validTwo = true
+        validation()
         //Input field is green if input is valid
         lastName.style.backgroundColor = "rgb(106, 143, 50)"
     }
@@ -64,7 +71,8 @@ email.addEventListener("input", () => {
         inputValue3.charAt(inputValue3.length-2) == "o" &&
         inputValue3.charAt(inputValue3.length-3) == "c" &&
         inputValue3.charAt(inputValue3.length-4) == ".") {
-        submit.disabled = false
+        validThree = true
+        validation()
         //Input field is green if input is valid
         email.style.backgroundColor = "rgb(106, 143, 50)"
         }
@@ -81,7 +89,8 @@ mobile.addEventListener("input", () => {
         inputValue4.length < 11 &&
         inputValue4.charAt(0) == 0 &&
         inputValue4.charAt(1) == 8) {
-        submit.disabled = false
+        validFour = true
+        validation()
         //Input field is green if input is valid
         mobile.style.backgroundColor = "rgb(106, 143, 50)"
     }
@@ -91,3 +100,13 @@ mobile.addEventListener("input", () => {
         mobile.style.backgroundColor = "rgb(221, 124, 124)"
     }
     })
+
+    function validation(){
+        if (validOne == true &&
+            validTwo == true &&
+            validThree == true &&
+            validFour == true
+            ) {
+            submit.disabled = false
+        }
+    }
