@@ -6,7 +6,7 @@
     <meta name="keywords" content="Fruit Shop, Veg Shop, Fruit and Veg, Newsletter">
     <title>Newsletter Sign Up</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="news-script.js" defer></script>
+    <script src="newsletter.js" defer></script>
 </head>
 <body>
     <div id="newsletter-container">
@@ -23,7 +23,7 @@
             </ul>
         </nav>
         <div id="form-container">
-            <form id="form">
+            <form id="form" autocomplete="off">
                 <label class="label" for="fName">First Name</label>
                 <br>
                 <input class="input" type="text" id="fName" required>
@@ -38,7 +38,7 @@
                 <br>
                 <label class="label" for="mobile">Mobile</label>
                 <br>
-                <input class="input" type="text" id="mobile" required>
+                <input class="input" type="tel" id="mobile" required>
                 <br>
                 <label class="label" for="news-choice">Which products are you interested in?</label>
                 <br>

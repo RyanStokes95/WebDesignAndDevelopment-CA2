@@ -30,39 +30,64 @@ firstName.addEventListener("input", () => {
     //First name must be longer then 2 characters
     if (inputValue1.length > 2) {
         submit.disabled = false
+        //Input field is green if input is valid
+        firstName.style.backgroundColor = "rgb(106, 143, 50)"
     }
     //If condition isnt met submit remains disabled
-    else{submit.disabled = true}
+    else{
+        //Input filed is red is input is invalid
+        submit.disabled = true
+        firstName.style.backgroundColor = "rgb(221, 124, 124)"
+    }
 })
 lastName.addEventListener("input", () => {
     var inputValue2 = lastName.value
     //Last name must be longer then 2 characters
-    if (inputValue2.length > 2) {
+    if (inputValue2.length > 2 &&
+        inputValue2.length < 20
+        ) {
         submit.disabled = false
+        //Input field is green if input is valid
+        lastName.style.backgroundColor = "rgb(106, 143, 50)"
     }
-    else{submit.disabled = true}
+    else{
+        submit.disabled = true
+        //Input filed is red is input is invalid
+        lastName.style.backgroundColor = "rgb(221, 124, 124)"
+    }
 })
 email.addEventListener("input", () => {
     var inputValue3 = email.value
     //Email must be atlest 10 characters and end with ".com"
-    if (inputValue3.length > 10 &&
+    if (inputValue3.length >= 10 &&
         inputValue3.charAt(inputValue3.length-1) == "m" &&
         inputValue3.charAt(inputValue3.length-2) == "o" &&
         inputValue3.charAt(inputValue3.length-3) == "c" &&
         inputValue3.charAt(inputValue3.length-4) == ".") {
         submit.disabled = false
+        //Input field is green if input is valid
+        email.style.backgroundColor = "rgb(106, 143, 50)"
         }
     else{
         submit.disabled = true
+        //Input filed is red is input is invalid
+        email.style.backgroundColor = "rgb(221, 124, 124)"
     }
 })
 mobile.addEventListener("input", () => {
     var inputValue4 = mobile.value
     //Mobile number must be 10 digits and start with 08
     if (inputValue4.length > 9 &&
+        inputValue4.length > 11 &&
         inputValue4.charAt(0) == 0 &&
         inputValue4.charAt(1) == 8) {
         submit.disabled = false
+        //Input field is green if input is valid
+        mobile.style.backgroundColor = "rgb(106, 143, 50)"
     }
-    else{submit.disabled = true}
+    else{
+        submit.disabled = true
+        //Input filed is red is input is invalid
+        mobile.style.backgroundColor = "rgb(221, 124, 124)"
+    }
     })
