@@ -1,7 +1,11 @@
 body, ul, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
+}
 
+header ul li a {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
 }
 
 ul {
