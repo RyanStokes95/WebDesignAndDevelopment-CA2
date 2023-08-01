@@ -185,3 +185,12 @@ footer .footer-menu li {
     margin: 10px;
 }
 
+footer .authors a, footer .authors a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+footer .authors a:hover {
+    color: white;
+}
+
