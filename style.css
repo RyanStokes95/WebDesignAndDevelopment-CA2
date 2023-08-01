@@ -1,0 +1,187 @@
+body, ul, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    background-color: #58681D;
+    background-color: white;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+header li {
+    padding: 15px;
+}
+
+header li a {
+    padding: 15px;
+    text-decoration: none;
+}
+
+header li:hover {
+    background-color: #c2c2c2;
+}
+
+header li a:visited {
+    color: black;
+}
+
+header .logo {
+    display: flex;
+}
+
+header .logo img {
+    margin: auto;
+}
+
+main .welcome {
+    width: 100%;
+    background-color: rgb(111, 111, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.jpg);
+    background-position: center;
+}
+
+main h1 {
+    font-size: 120px;
+}
+
+main h1, main h2, .offer h3 { 
+    color: white;
+    -webkit-text-stroke: black 1px;
+}
+
+main h2 {
+    font-size: 50px;
+}
+
+main .offer {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+main .offer1 {
+    background-image: url(images/photo-1591586116988-62fe65164f8d.png);
+    b
+}
+
+main .offer2 {
+    background-image: url(images/photo-1568391047493-d859d5ddb509.png);
+}
+
+main .offer3 {
+    background-image: url(images/photo-1545601445-4d6a0a0565f0.png);
+}
+
+main .offer .offer-card {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: 100px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .offer .offer-card h3 {
+    font-size: 50px;
+    background-color: #B5250A;
+}
+
+main .reviews {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+main .reviews .review {
+    background-color: #1E591E;
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+}
+
+main .reviews .reviews-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+main .reviews .review p {
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+main .reviews select {
+    appearance: none;
+    border: white solid 0px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    background-color: #1E591E;
+    padding: 30px 50px 20px 50px;
+    box-sizing: border-box;
+}
+
+footer .authors {
+    text-align: center;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer .footer-menu ul {
+    width: 150px;
+}
+
+footer .socials a,  footer .footer-menu ul a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .footer-menu ul a:hover {
+    text-decoration: underline;
+}
+
+footer .socials a:hover {
+    color: white;
+}
+
+footer i {
+    margin: 7px;
+}
+
+footer .footer-menu li {
+    margin: 10px;
+}
+
