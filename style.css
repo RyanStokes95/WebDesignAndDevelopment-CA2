@@ -1,11 +1,18 @@
+
+/*landing page style*/
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Tektur&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
+
 body, ul, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
+}
 
+* {
+    font-family: 'Slabo 27px', serif;
 }
 
 ul {
@@ -28,9 +35,10 @@ header li {
     padding: 15px;
 }
 
-header li a {
+header li a, header li a:link {
     padding: 15px;
     text-decoration: none;
+    color: black;
 }
 
 header li:hover {
@@ -51,7 +59,6 @@ header .logo img {
 
 main .welcome {
     width: 100%;
-    background-color: rgb(111, 111, 232);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +89,6 @@ main .offer {
 
 main .offer1 {
     background-image: url(images/photo-1591586116988-62fe65164f8d.png);
-
 }
 
 main .offer2 {
@@ -96,7 +102,6 @@ main .offer3 {
 main .offer .offer-card {
     width: 300px;
     height: 300px;
-    background-color: aqua;
     margin: 100px 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -125,6 +130,7 @@ main .reviews .review {
     width: 600px;
     padding: 30px;
     margin: auto;
+    box-sizing: content-box;
 }
 
 main .reviews .reviews-wrapper {
@@ -135,6 +141,7 @@ main .reviews .reviews-wrapper {
 main .reviews .review p {
     font-size: 30px;
     background-color: whitesmoke;
+    padding: 15px;
 }
 
 main .reviews select {
@@ -146,9 +153,13 @@ main .reviews select {
     margin-top: 10px;
 }
 
+main .review .stars i {
+    color: rgb(253, 195, 46);
+}
+
 footer {
     width: 100%;
-    height: 270px;
+    height: 300px;
     background-color: #1E591E;
     padding: 30px 50px 20px 50px;
     box-sizing: border-box;
@@ -198,6 +209,141 @@ footer .authors a:hover {
     color: white;
 }
 
+/*offer page style*/
+
+main .offer-info {
+    text-align: center;
+    background-color: #B5250A;
+    padding: 20px;
+    margin-bottom: 20xp;
+}
+
+main .offer-info p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main .offer-info p a, main .offer-info p a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+main .offer-info p a:hover {
+    color: white;
+}
+
+main .offer-veg {
+    display: flex;
+    justify-content: center;
+
+}
+
+main .offer-page .offer-card2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+main .offer-page h2 {
+    text-align: center;
+    padding: 0;
+    margin: 30px 0px 0px 5px;
+    font-weight: bold;
+}
+
+main .offer-page .veg1 {
+    background-image: url(images/veg1.png);
+}
+
+main .offer-page .veg2 {
+    background-image: url(images/veg2.png);
+}
+
+main .offer-page .veg3 {
+    background-image: url(images/veg3.png);
+}
+
+main .offer-page .veg4 {
+    background-image: url(images/veg4.png);
+}
+
+main .offer-page .veg5 {
+    background-image: url(images/veg5.png);
+}
+
+main .offer-page .offer-card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+main .offer-page .offer-card2 p {
+    color: white;
+    -webkit-text-stroke: black 1px;
+    font-size: 30px;
+    text-align: center;
+}
+
+main .offer-page .offer-fru {
+    display: flex;
+    justify-content: center;
+}
+
+main .offer-page .fru1 {
+    background-image: url(images/fru1.png);
+}
+
+main .offer-page .fru2 {
+    background-image: url(images/fru2.png);
+}
+
+main .offer-page .fru3 {
+    background-image: url(images/fru3.png);
+}
+
+main .offer-page .fru4 {
+    background-image: url(images/fru4.png);
+}
+
+main .offer-page .fru5 {
+    background-image: url(images/fru5.png);
+}
+
+main .offer-page .offer-gen {
+    display: flex;
+    justify-content: center;
+}
+
+main .offer-page .gen1 {
+    background-image: url(images/gen1.png);
+}
+
+main .offer-page .gen2 {
+    background-image: url(images/gen2.png);
+}
+
+main .offer-page {
+    margin: 80px 10px;
+}
+
+main .offer-question {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 30px;
+    align-items: center;
+}
+
+main .offer-question p {
+    font-weight: bold;
+}
+
+main .offer-question input {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+=======
 /* Newsletter CSS - Ryan */
 
 #h2-container {
@@ -367,3 +513,4 @@ footer .authors a:hover {
     border-width: 3px;
     border-color: #000000;
 }
+
