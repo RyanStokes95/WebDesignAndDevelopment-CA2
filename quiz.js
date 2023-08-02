@@ -63,9 +63,15 @@ function submit(){
     //Alert notifying user of number of questions correct
     if (correct == 1) {
         //if only one question is correct "question" is not pluralised
-        alert("You got " + correct + " question correct!");
+        prompt("You got " + correct + " question correct!, enter email below to be entered into the draw");
+        alert("Thanks for playing")
+        //User is returned to homepage after playing
+        window.location.href = "index.html"
         //"question pluralised if more than one question correct"
     } else {
-        alert("You got " + correct + " questions correct!");
+        prompt("You got " + correct + " questions correct!, enter email below to be entered into the draw");
+        alert("Thanks for playing")
+        //User is returned to homepage after playing
+        window.location.href = "index.html"
     }
 }

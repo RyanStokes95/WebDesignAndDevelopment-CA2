@@ -330,26 +330,11 @@ footer .authors a:hover {
 #options4 {
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #97bd82;
     border-style: solid;
     border-width: 3px;
     border-color: #000000;
     border-radius: 10px;
-}
-
-#options1{
-    background-color: #bae8ba; 
-}
-
-#options2{
-    background-color: #bae8ba;
-}
-
-#options3{
-    background-color: #bae8ba;
-}
-
-#options4{
-    background-color: #bae8ba;
 }
 
 input {
