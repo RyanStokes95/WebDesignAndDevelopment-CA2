@@ -16,38 +16,34 @@
                 <img src="images/mick logo.png" alt="">
             </div>
             <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="newsletter.html">Newsletter</a></li>
                 <li><a href="quiz.html">Win a Voucher!</a></li>
                 <li><a href="">Directions</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </header>
-        <nav id="nav">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Find Us</a></li>
-                <li><a href="quiz.html">Competition</a></li>
-            </ul>
-        </nav>
+        <div id="h2-container">
+            <h2 id="news-h2">
+                Sign Up for monthly deals and new products!
+            </h2>
+        </div>
         <div id="form-container">
             <form id="form" autocomplete="off">
-                <label class="label" for="fName">First Name</label>
-                <br>
+                <label class="label" for="fName">First Name:</label>
+                <p>Must be longer than 2 characters</p>
                 <input class="input" type="text" id="fName" required>
                 <br>
-                <label class="label" for="lName">Last Name</label>
-                <br>
+                <label class="label" for="lName">Last Name:</label>
+                <p>Must be longer than 2 characters</p>
                 <input class="input" type="text" id="lName" required>
                 <br>
-                <label class="label" for="email">Email</label>
-                <br>
+                <label class="label" for="email">Email:</label>
+                <p>Must be longer than 10 characters & end in .com</p>
                 <input class="input" type="text" id="email" required>
                 <br>
-                <label class="label" for="mobile">Mobile</label>
-                <br>
+                <label class="label" for="mobile">Mobile:</label>
+                <p>Must be 10 characters and start in 08</p>
                 <input class="input" type="tel" id="mobile" required>
                 <br>
                 <label class="label" for="news-choice">Which products are you interested in?</label>
@@ -58,7 +54,7 @@
                     <option class="option" value="fruit+veg">Fruit and Vegetables</option>
                 </select>
                 <br>
-                <label class="label">Contact Preference</label>
+                <label class="label">Contact Preference:</label>
                 <br>
                 <input class="input" type="radio" name="contact" id="contact-choice1" value="Mobile" checked>
                 <label class="label" for="contact-choice1">Mobile</label>

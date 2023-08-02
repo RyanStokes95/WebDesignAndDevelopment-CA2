@@ -18,9 +18,16 @@ submit.addEventListener("click", () => {
     //Form hidden after completion, replaced by thank you message
     form.style.display = "none";
     formContainer.innerHTML = "Thank you for signing up!";
+    formContainer.style.textAlign = "center"; 
+    formContainer.style.fontSize = "large" 
     var anchor = document.getElementById("anchor");
     //Link back home after quiz completion
     anchor.innerHTML = "Return Home";
+    anchor.style.marginLeft =  "47vw"; 
+    anchor.style.display =  "inline-block";  
+    anchor.style.marginBottom =  "30px"; 
+    anchor.style.marginTop =  "150px"; 
+    anchor.style.fontSize =  "larger"; 
 
 })
 
@@ -37,7 +44,7 @@ firstName.addEventListener("input", () => {
         validOne = true
         validation
         //Input field is green if input is valid
-        firstName.style.backgroundColor = "rgb(106, 143, 50)"
+        firstName.style.backgroundColor = "rgb(132, 204, 135)"
     }
     //If condition isnt met submit remains disabled
     else{
@@ -55,7 +62,7 @@ lastName.addEventListener("input", () => {
         validTwo = true
         validation()
         //Input field is green if input is valid
-        lastName.style.backgroundColor = "rgb(106, 143, 50)"
+        lastName.style.backgroundColor = "rgb(132, 204, 135)"
     }
     else{
         submit.disabled = true
@@ -74,7 +81,7 @@ email.addEventListener("input", () => {
         validThree = true
         validation()
         //Input field is green if input is valid
-        email.style.backgroundColor = "rgb(106, 143, 50)"
+        email.style.backgroundColor = "rgb(132, 204, 135)"
         }
     else{
         submit.disabled = true
@@ -92,7 +99,7 @@ mobile.addEventListener("input", () => {
         validFour = true
         validation()
         //Input field is green if input is valid
-        mobile.style.backgroundColor = "rgb(106, 143, 50)"
+        mobile.style.backgroundColor = "rgb(132, 204, 135)"
     }
     else{
         submit.disabled = true

@@ -7,7 +7,7 @@
     <title>Voucher Competition</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d8fa2073a1.js" crossorigin="anonymous"></script>
-    <script src="quiz-script.js" defer></script>
+    <script src="quiz.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -16,22 +16,13 @@
                 <img src="images/mick logo.png" alt="">
             </div>
             <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="newsletter.html">Newsletter</a></li>
-                <li><a href="quiz.html">Win a Voucher!</a></li>
                 <li><a href="">Directions</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </header>
-        <nav id="nav">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="newsletter.html">Newsletter</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Find Us</a></li>
-            </ul>
-        </nav>
         <h2 id="quiz-heading">
             Answer these questions correctly to be in a draw for a €100 voucher!
         </h2>
@@ -63,14 +54,14 @@
             </div>
             <br>
             <div id="options3">
-                <input type="radio" value="204" name="q3" class="q3">
-                <label id="random-wrong-1">204</label><br>
-                <input type="radio" value="333" name="q3" class="q3">
-                <label id="random-wrong-2">333</label><br>
-                <input type="radio" value="0" name="q3" id="random-value">
+                <input type="radio" name="q3" class="q3">
+                <label id="random-wrong-1"></label><br>
+                <input type="radio" name="q3" class="q3">
+                <label id="random-wrong-2"></label><br>
+                <input type="radio" name="q3" id="random-value">
                 <label id="random-answer"></label><br>
-                <input type="radio" value="-23" name="q3" class="q3">
-                <label id="random-wrong-3">-23</label><br>
+                <input type="radio" name="q3" class="q3">
+                <label id="random-wrong-3">-</label><br>
             </div>
             <br>
             <div id="question4">
@@ -85,7 +76,7 @@
             </div>
             <br>
             <div class="submit">
-                <button id="submitButton">Submit</button>
+                <button id="submit-button">Submit</button>
             </div>
         </div>
         <footer>

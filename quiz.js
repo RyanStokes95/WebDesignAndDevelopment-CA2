@@ -6,7 +6,7 @@ var fruitValue2 = Math.floor(Math.random()*50);
 
 //Random Question Setup
 //Inserts random question values 1 and 2 into question and inserts into HTML
-var randomQuestion = "If you have " + fruitValue1 + " Bananas and eat " + fruitValue2 + " , how many do you have left?";
+var randomQuestion = "If you have " + fruitValue1 + " Bananas and eat " + fruitValue2 + ", how many do you have left?";
 document.getElementById("random-question").innerHTML = randomQuestion;
 
 //Sets the correct random answer and inserts into HTML
@@ -20,7 +20,7 @@ randomValue.setAttribute("value", toString(randomAnswer));
 //Sets the randomly generated wrong answers and inserts into HTML
 var randomWrongOne = parseInt(randomAnswer / 2)
 document.getElementById("random-wrong-1").innerHTML = randomWrongOne
-var randomWrongTwo = randomAnswer + Math.floor(Math.random()*31)
+var randomWrongTwo = randomAnswer + Math.floor((Math.random()*31) + 2)
 document.getElementById("random-wrong-2").innerHTML = randomWrongTwo
 var randomWrongThree = randomAnswer * Math.floor((Math.random()*4)+2)
 document.getElementById("random-wrong-3").innerHTML = randomWrongThree
@@ -38,7 +38,7 @@ var answers = [
 var correct = 0;
 
 //Adds functionality to the submit button
-var btn = document.getElementById("submitButton");
+var btn = document.getElementById("submit-button");
 //On click runs the submit function
 btn.addEventListener("click", submit);
 
