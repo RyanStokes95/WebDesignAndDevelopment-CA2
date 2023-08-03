@@ -375,6 +375,7 @@ main .offer-question input {
     border-style: solid;
     border-width: 3px;
     border-color: #ca3131;
+    border-radius: 5px;
 }
 
 #form-container {
@@ -383,7 +384,10 @@ main .offer-question input {
     border-style: solid;
     border-width: 3px;
     border-color: #1E591E;
+    border-radius: 5px;
     margin: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: #e6e4e4;
@@ -470,6 +474,8 @@ main .offer-question input {
 
 #quiz-container {
     margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 10px;
     background-color: #e6e4e4;
     border-style: dotted;
