@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts from Google Fonts - Slabo 27-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d8fa2073a1.js" crossorigin="anonymous"></script>
+    <title>Mick's Garden</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/mick logo.png" alt="logo"></a>
+        </div>
+        <div class="ham-menu" id="ham-menu">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </div>
+        <ul id="ham-content">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="offer.html">Offer</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="quiz.html">Win a Voucher!</a></li>
+            <li><a href="directions.html">Directions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="about-content">
+            <p class="about-info">Click on the sections to get answers!</p>
+            <div class="about-us" >
+                <a href="#about-answer1" data-toggle="collapse"><h1>Who Are We?</h1></a>
+                <p id="about-answer1" class="collapse">Answer: Eco-friendly food store in your area. We provide you with locally-sourced, organic, and deliciously sustainable produce. Welcome to a greener way of nourishment!</p>
+            </div>
+            <div class="about-goal">
+                <a href="#about-answer2" data-toggle="collapse"><h1>Our Goal</h1></a>
+                <p id="about-answer2" class="collapse">With a carefully curated selection of <b>locally-sourced</b>, <b>organic</b>, and <b>ethically produced</b> products, we strive to empower our customers to make environmentally responsible choices without compromising on taste or quality. Join us on this journey towards a greener, healthier planet, one wholesome bite at a time!</p>
+            </div>
+            <div class="about-list">
+                <a href="#about-answer3" data-toggle="collapse"><h1>Our Achievements</h1></a>
+                <ul id="about-answer3" class="collapse">
+                    <li><p><b>Reduced</b> plastic waste <b>by 50% </b>through eco-friendly packaging initiatives.</p></li>
+                    <li><p>Donated <b>pounds</b> of fresh produce to local food banks in the past year.</p></li>
+                    <li><p><b>Recycled 95%</b> of store waste, aiming for zero-waste status.</p></li>
+                    <li><p>Achieved a <b>4.8-star</b> rating for customer satisfaction in sustainable practices.</p></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-menu">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="offer.html"><li>Offer</li></a>
+                <a href="newsletter.html"><li>Newsletter</li></a>
+                <a href="quiz.html"><li>Win a Voucher!</li></a>
+                <a href="directions.html"><li>Directions</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="about.html"><li>About</li></a>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+            <a href="https://www.google.com/"><i class="fa-brands fa-google fa-xl"></i></a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+        </div>
+        <div class="authors">
+            <p>Website created by: <a href="https://github.com/anetakotas">Aneta Kotas</a>, <a href="https://github.com/arishanci">Arisha Mirza</a>, <a href="https://github.com/RyanStokes95">Ryan Stokes</a></p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="hamburger.js"></script>
+</body>
+</html>
