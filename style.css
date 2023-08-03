@@ -351,6 +351,42 @@ main .offer-question input {
     margin-bottom: 10px;
 }
 
+main .about-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    padding: 50px 30px;
+    max-width: 900px;
+}
+
+
+main .about-us, main .about-goal, main .about-list {
+    text-align: center;
+    margin: 40px 0;
+    max-width: 700px;
+}
+
+main .about-us h1 {
+    font-size: 100px;
+    padding: 25px;
+    background-image: url(images/whoarewe.png);
+    background-position-y: -30px;
+}
+
+main .about-goal h1{
+    font-size: 90px;
+    padding: 25px;
+    background-image: url(images/ourgoal.png);
+    background-position-y: -80px;
+}
+
+main .about-list h1 {
+    font-size: 70px;
+}
+
+
+
 
 @media (max-width: 1010px) {
     main .offer .offer-card {
