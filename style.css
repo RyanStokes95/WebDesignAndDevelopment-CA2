@@ -347,6 +347,12 @@ main .offer-question input {
 
 /* Newsletter CSS - Ryan */
 
+#newsletter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #h2-container {
     display: flex;
     flex-direction: row;
@@ -381,16 +387,16 @@ main .offer-question input {
 #form-container {
     display: flex;
     flex-direction: column;
+    align-self: center;
     border-style: solid;
     border-width: 3px;
     border-color: #1E591E;
     border-radius: 5px;
     margin: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
     padding: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: #e6e4e4;
+    width: 70%;
 }
 
 #form-container a {
@@ -473,15 +479,15 @@ main .offer-question input {
 }
 
 #quiz-container {
+    align-self: center;
     margin: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
     padding: 10px;
     background-color: #e6e4e4;
     border-style: dotted;
     border-width: 3px;
     border-color: #1E591E;
     border-radius: 10px;
+    width: 70%;
 }
 
 #question1,
