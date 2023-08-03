@@ -10,6 +10,7 @@
 /* Aneta's CSS */
 /* Landing page style */
 
+
 body, ul, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
@@ -20,6 +21,10 @@ body, ul, h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
     justify-content: center;
     background-color: #ffffff;
+}
+
+.ham-menu {
+    display: none;
 }
 
 * {
@@ -168,6 +173,10 @@ main .reviews select {
 
 main .review .stars i {
     color: rgb(253, 195, 46);
+}
+
+main .review .stars {
+    padding: 12px;
 }
 
 footer {
@@ -389,6 +398,9 @@ main .about-us h1 {
     background-position-y: -30px;
 }
 
+main .about-us p, main .about-goal p, main .about-list ul {
+    font-size: 17px;
+}
 
 main .about-goal h1 {
     font-size: 90px;
@@ -414,10 +426,30 @@ main .about-info {
     }
 }
 
+@media (max-width: 828px) {
+    main .about-us h1, main .about-goal h1, main .about-list h1 {
+        width: 400px;
+        font-size: 60px;
+    }
+
+    main .about-us p, main .about-goal p, main .about-list ul {
+        width: 400px;
+    }
+}
+
 @media (max-width: 674px) {
 
     main .welcome h1 {
         font-size: 70px;
+    }
+
+    main .about-us h1, main .about-goal h1, main .about-list h1 {
+        width: 400px;
+        font-size: 60px;
+    }
+
+    main .about-us p, main .about-goal p, main .about-list ul {
+        width: 400px;
     }
 }
 
