@@ -1,5 +1,4 @@
-/* Aneta's CSS */
-/* Landing page style */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Tektur&display=swap');
 
@@ -7,6 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
+/* Aneta's CSS */
+/* Landing page style */
 
 body, ul, h1, h2, h3, h4, h5, h6 {
     padding: 0;
@@ -20,6 +22,7 @@ body, ul, h1, h2, h3, h4, h5, h6 {
 * {
     font-family: 'Slabo 27px', serif;
 }
+
 
 ul {
     list-style: none;
@@ -353,6 +356,7 @@ main .offer-question input {
 
 main .about-content {
     display: flex;
+    margin: auto;
     flex-direction: column;
     background-color: #f5f5f5;
     margin-top: 20px;
@@ -363,26 +367,39 @@ main .about-content {
 
 main .about-us, main .about-goal, main .about-list {
     text-align: center;
-    margin: 40px 0;
+    margin: auto;
     max-width: 700px;
 }
 
-main .about-us h1 {
-    font-size: 100px;
+main .about-us a, main .about-goal a, main .about-list a {
+    text-decoration: none;
+}
+
+main .about-us h1, main .about-goal h1, main .about-list h1 {
     padding: 25px;
+    width: 700px;
+}
+
+main .about-us h1 {
+    font-size: 90px;
     background-image: url(images/whoarewe.png);
     background-position-y: -30px;
 }
 
-main .about-goal h1{
+
+main .about-goal h1 {
     font-size: 90px;
-    padding: 25px;
     background-image: url(images/ourgoal.png);
     background-position-y: -80px;
 }
 
 main .about-list h1 {
     font-size: 70px;
+    background-image: url(images/ourachi.png);
+}
+
+main .about-info {
+    margin-left: 70px;
 }
 
 

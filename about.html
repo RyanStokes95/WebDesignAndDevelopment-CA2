@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/d8fa2073a1.js" crossorigin="anonymous"></script>
     <title>Mick's Garden</title>
 </head>
@@ -31,17 +34,18 @@
     </header>
     <main>
         <div class="about-content">
-            <div class="about-us">
-                <h1>Who are we?</h1>
-                <p>Answer: Eco-friendly food store in your area. We provide you with locally-sourced, organic, and deliciously sustainable produce. Welcome to a greener way of nourishment!</p>
+            <p class="about-info">Click on the sections to get answers!</p>
+            <div class="about-us" >
+                <a href="#about-answer1" data-toggle="collapse"><h1>Who Are We?</h1></a>
+                <p id="about-answer1" class="collapse">Answer: Eco-friendly food store in your area. We provide you with locally-sourced, organic, and deliciously sustainable produce. Welcome to a greener way of nourishment!</p>
             </div>
             <div class="about-goal">
-                <h1>Our Goal</h1>
-                <p>With a carefully curated selection of <b>locally-sourced</b>, <b>organic</b>, and <b>ethically produced</b> products, we strive to empower our customers to make environmentally responsible choices without compromising on taste or quality. Join us on this journey towards a greener, healthier planet, one wholesome bite at a time!</p>
+                <a href="#about-answer2" data-toggle="collapse"><h1>Our Goal</h1></a>
+                <p id="about-answer2" class="collapse">With a carefully curated selection of <b>locally-sourced</b>, <b>organic</b>, and <b>ethically produced</b> products, we strive to empower our customers to make environmentally responsible choices without compromising on taste or quality. Join us on this journey towards a greener, healthier planet, one wholesome bite at a time!</p>
             </div>
             <div class="about-list">
-                <h1>Our Achievements:</h1>
-                <ul>
+                <a href="#about-answer3" data-toggle="collapse"><h1>Our Achievements</h1></a>
+                <ul id="about-answer3" class="collapse">
                     <li><p><b>Reduced</b> plastic waste <b>by 50% </b>through eco-friendly packaging initiatives.</p></li>
                     <li><p>Donated <b>pounds</b> of fresh produce to local food banks in the past year.</p></li>
                     <li><p><b>Recycled 95%</b> of store waste, aiming for zero-waste status.</p></li>
