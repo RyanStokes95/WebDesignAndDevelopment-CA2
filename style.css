@@ -17,7 +17,6 @@ body, ul, h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-
 * {
     font-family: 'Slabo 27px', serif;
 }
@@ -60,7 +59,7 @@ header .logo {
     display: flex;
 }
 
-header .logo img {
+header .logo a {
     margin: auto;
 }
 
@@ -394,6 +393,8 @@ main .offer-question input {
     header ul {
         display: none;
     }
+
+    
 }
 
 
