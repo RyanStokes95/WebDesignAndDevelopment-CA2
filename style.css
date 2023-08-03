@@ -359,8 +359,10 @@ main .offer-question input {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #1E591E;
-    height: 50px;
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
     width: 100vw;
     margin-top: 10px;
     margin-left: 10px;
@@ -447,8 +449,10 @@ main .offer-question input {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #1E591E;
-    height: 50px;
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
