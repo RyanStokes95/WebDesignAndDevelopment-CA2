@@ -45,7 +45,6 @@ header {
 header ul {
     display: flex;
     justify-content: center;
-    background-color: whitesmoke;
 }
 
 header li {
@@ -72,6 +71,24 @@ header .logo {
 
 header .logo a {
     margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+header nav li a {
+    color: black;
+}
+
+header #nav-container {
+    background-color: #f8f9fa;
 }
 
 main .welcome {
