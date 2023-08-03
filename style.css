@@ -15,8 +15,11 @@ body, ul, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.ham-menu {
-    display: none;
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
 }
 
 * {
