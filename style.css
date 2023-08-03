@@ -370,10 +370,11 @@ main .offer-question input {
     padding: 5px;
     color: #f5f5f5;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: larger;
+    font-size: 35px;
+    text-align: center;
     border-style: solid;
     border-width: 3px;
-    border-color: #a0e37c;
+    border-color: #ca3131;
 }
 
 #form-container {
@@ -459,10 +460,11 @@ main .offer-question input {
     padding: 5px;
     color: #f5f5f5;
     font-family: 'Comfortaa', cursive;
-    font-size: larger;
+    font-size: 35px;
+    text-align: center;
     border-style: solid;
     border-width: 3px;
-    border-color: #95c07f;
+    border-color: #ca3131;
     border-radius: 10px;
 }
 
