@@ -67,12 +67,12 @@ function submit(){
         prompt("You got " + correct + " question correct!, enter email below to be entered into the draw");
         alert("Thanks for playing")
         //User is returned to homepage after playing
-        window.location.href = "index.html"
+        window.location.href = "html/index.html"
         //"question pluralised if more than one question correct"
     } else {
         prompt("You got " + correct + " questions correct!, enter email below to be entered into the draw");
         alert("Thanks for playing")
         //User is returned to homepage after playing
-        window.location.href = "index.html"
+        window.location.href = "html/index.html"
     }
 }
