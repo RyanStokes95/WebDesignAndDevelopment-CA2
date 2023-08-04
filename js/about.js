@@ -1,3 +1,4 @@
+// Written by Aneta Kotas
 var img1 = document.getElementById("car1");
 var img2 = document.getElementById("car2");
 var img3 = document.getElementById("car3");
@@ -18,4 +19,5 @@ img3.addEventListener('click', () => {
 img4.addEventListener('click', () => {
     alert("Image created by Annie Spratt from Unsplash \nhttps://unsplash.com/photos/JMjNnQ2xFoY");
 });
+
 

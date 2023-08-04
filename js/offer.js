@@ -1,3 +1,4 @@
+// Written by Aneta Kotas
 var button = document.getElementById("offer-check");
 var input = document.getElementById("offer-question");
 var response = document.getElementById("offer-response");

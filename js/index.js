@@ -1,3 +1,4 @@
+// Written by Aneta Kotas
 var selectElement = document.getElementById("review");
 
 selectElement.addEventListener('change', () => {

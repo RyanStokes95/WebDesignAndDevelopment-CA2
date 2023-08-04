@@ -1,4 +1,5 @@
 //Quiz Game Script
+// Written by Ryan Stokes
 
 //Random Question Values 1 and 2
 var fruitValue1 = Math.floor((Math.random()*100) + 50);

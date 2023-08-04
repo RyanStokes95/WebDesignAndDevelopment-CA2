@@ -1,4 +1,5 @@
 //Newsletter Script
+// Written by Ryan Stokes
 
 //Assigning variables to form HTML Elemants
 
