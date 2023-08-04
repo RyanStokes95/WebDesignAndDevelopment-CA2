@@ -1,3 +1,4 @@
+// Written by Aneta Kotas
 var hamburger = document.getElementById("ham-menu");
 var hamContent = document.getElementById("ham-content");
 

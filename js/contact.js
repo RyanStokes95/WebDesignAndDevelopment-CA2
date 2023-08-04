@@ -1,3 +1,4 @@
+// Written by Arisha Mirza
 document.addEventListener('DOMContentLoaded', function () {
     const contactForm = document.getElementById('contact-form');
     const submitButton = document.getElementById('submission');
