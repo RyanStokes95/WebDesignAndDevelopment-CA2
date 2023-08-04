@@ -434,7 +434,10 @@ main .about-info {
     margin-left: 70px;
 }
 
-
+main .about-slider {
+    max-width: 700px;
+    margin: auto;
+}
 
 
 @media (max-width: 1010px) {
