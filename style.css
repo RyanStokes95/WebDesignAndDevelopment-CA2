@@ -79,6 +79,11 @@ header .logo a {
     margin: auto;
 }
 
+header .logo img {
+    height: 171px;
+    max-width: 326px;
+}
+
 header nav ul {
     display: flex;
     margin: auto;
@@ -104,7 +109,7 @@ main .welcome {
     justify-content: center;
     flex-direction: column;
     height: 500px;
-    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.jpg);
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif);
     background-position: center;
 }
 
@@ -129,15 +134,15 @@ main .offer {
 }
 
 main .offer1 {
-    background-image: url(images/photo-1591586116988-62fe65164f8d.png);
+    background-image: url(images/photo-1591586116988-62fe65164f8d.avif);
 }
 
 main .offer2 {
-    background-image: url(images/photo-1568391047493-d859d5ddb509.png);
+    background-image: url(images/photo-1568391047493-d859d5ddb509.avif);
 }
 
 main .offer3 {
-    background-image: url(images/photo-1545601445-4d6a0a0565f0.png);
+    background-image: url(images/photo-1545601445-4d6a0a0565f0.avif);
 }
 
 main .offer .offer-card {
@@ -207,6 +212,11 @@ footer {
     background-color: #1E591E;
     padding: 30px 50px 20px 50px;
     box-sizing: border-box;
+    
+}
+
+footer, footer ul li a, footer p a{
+    color: rgb(224, 224, 224);
 }
 
 footer .authors {
@@ -225,7 +235,7 @@ footer .footer-menu ul {
 
 footer .socials a,  footer .footer-menu ul a{
     text-decoration: none;
-    color: black;
+    color: #f8f9fa;
 }
 
 footer .footer-menu ul a:hover {
@@ -233,7 +243,7 @@ footer .footer-menu ul a:hover {
 }
 
 footer .socials a:hover {
-    color: white;
+    color: black;
 }
 
 footer i {
@@ -246,11 +256,11 @@ footer .footer-menu li {
 
 footer .authors a, footer .authors a:visited {
     text-decoration: none;
-    color: black;
+    color: #f8f9fa;
 }
 
 footer .authors a:hover {
-    color: white;
+    color: black;
 }
 
 /* Offer page style */
@@ -269,7 +279,7 @@ main .offer-info p {
 
 main .offer-info p a, main .offer-info p a:visited {
     text-decoration: none;
-    color: black;
+    color: #f8f9fa;
 }
 
 main .offer-info p a:hover {
@@ -297,23 +307,23 @@ main .offer-page h2 {
 }
 
 main .offer-page .veg1 {
-    background-image: url(images/veg1.png);
+    background-image: url(images/veg1.avif);
 }
 
 main .offer-page .veg2 {
-    background-image: url(images/veg2.png);
+    background-image: url(images/veg2.avif);
 }
 
 main .offer-page .veg3 {
-    background-image: url(images/veg3.png);
+    background-image: url(images/veg3.avif);
 }
 
 main .offer-page .veg4 {
-    background-image: url(images/veg4.png);
+    background-image: url(images/veg4.avif);
 }
 
 main .offer-page .veg5 {
-    background-image: url(images/veg5.png);
+    background-image: url(images/veg5.avif);
 }
 
 main .offer-page .offer-card2 {
@@ -336,23 +346,23 @@ main .offer-page .offer-fru {
 }
 
 main .offer-page .fru1 {
-    background-image: url(images/fru1.png);
+    background-image: url(images/fru1.avif);
 }
 
 main .offer-page .fru2 {
-    background-image: url(images/fru2.png);
+    background-image: url(images/fru2.avif);
 }
 
 main .offer-page .fru3 {
-    background-image: url(images/fru3.png);
+    background-image: url(images/fru3.avif);
 }
 
 main .offer-page .fru4 {
-    background-image: url(images/fru4.png);
+    background-image: url(images/fru4.avif);
 }
 
 main .offer-page .fru5 {
-    background-image: url(images/fru5.png);
+    background-image: url(images/fru5.avif);
 }
 
 main .offer-page .offer-gen {
@@ -361,11 +371,11 @@ main .offer-page .offer-gen {
 }
 
 main .offer-page .gen1 {
-    background-image: url(images/gen1.png);
+    background-image: url(images/gen1.avif);
 }
 
 main .offer-page .gen2 {
-    background-image: url(images/gen2.png);
+    background-image: url(images/gen2.avif);
 }
 
 main .offer-page {
@@ -417,8 +427,7 @@ main .about-us h1, main .about-goal h1, main .about-list h1 {
 
 main .about-us h1 {
     font-size: 90px;
-    background-image: url(images/whoarewe.png);
-    background-position-y: -30px;
+    background-image: url(images/whoarewe.avif);
 }
 
 main .about-us p, main .about-goal p, main .about-list ul {
@@ -427,13 +436,12 @@ main .about-us p, main .about-goal p, main .about-list ul {
 
 main .about-goal h1 {
     font-size: 90px;
-    background-image: url(images/ourgoal.png);
-    background-position-y: -80px;
+    background-image: url(images/ourgoal.avif);
 }
 
 main .about-list h1 {
     font-size: 70px;
-    background-image: url(images/ourachi.png);
+    background-image: url(images/ourachi.avif);
 }
 
 main .about-info {
@@ -535,7 +543,7 @@ main .about-slider {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.jpg);
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif);
     background-position: center;
     background-size: cover;
     height: 150px;
@@ -630,7 +638,7 @@ main .about-slider {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.jpg);
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif);
     background-position: center;
     background-size: cover;
     height: 150px;
