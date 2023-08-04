@@ -81,7 +81,7 @@ header .logo a {
 
 header .logo img {
     height: 171px;
-    max-width: 326px;
+    width: 326px;
 }
 
 header nav ul {
