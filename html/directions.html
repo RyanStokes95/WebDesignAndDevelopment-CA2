@@ -22,29 +22,32 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="offer.html">Offer</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="quiz.html">Win a Voucher!</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="newsletter.html">Newsletter</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="directions.html">Directions</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="offer.html">Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="newsletter.html">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html">Win a Voucher!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directions.html">Directions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -91,7 +94,7 @@
             </div>
 
 		<div class="button-container">
-    <a href="contact.html" class="button">Too far away? Lost? Please contact us.</a>
+    <a href="contact.html" class="button">Too far away? Lost?<br> Please contact us.</a>
 	</div>
 
 
@@ -118,21 +121,8 @@
             <p>Website created by: <a href="https://github.com/anetakotas">Aneta Kotas</a>, <a href="https://github.com/arishanci">Arisha Mirza</a>, <a href="https://github.com/RyanStokes95">Ryan Stokes</a></p>
         </div>
     </footer>
-    <!-- code which toggles between images taken and editted from: https://codepen.io/JackEdwardLyons/details/ZWvNbL -->
-    <script>
-        $(".directions-container").on("click", function() {
-        var image_1 = $("img#one");
-        var img1_src = "/images/roadmap.jpg";
-        var img2_src = "/images/roadmap2.jpg";
-          
-        if (image_1.attr("src") == img1_src) {
-            
-            image_1.attr("src", img2_src);
-          } else {
-            image_1.attr("src", img1_src);
-          }
-      });
-    </script>
+    
+    <script src="/js/directions.js"></script>
     
 </body>
 </html>
