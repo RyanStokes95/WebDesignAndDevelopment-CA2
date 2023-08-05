@@ -43,17 +43,20 @@ header {
 header ul {
     display: flex;
     justify-content: center;
+    background-color: #f8f9fa;
 }
 
 header li {
     padding: 15px;
+    display: flex;
 }
 
 header li a, 
 header li a:link {
     padding: 15px;
     text-decoration: none;
-    color: black;
+    color: black; 
+
 }
 
 header li:hover {
