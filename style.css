@@ -689,9 +689,9 @@ main .about-slider {
     border-color: #000000;
 }
 
-/* contact CSS */
+/* Arisha CSS */
 
-/* main section */
+/* Contact style */
 main {
     display: flex;
     flex-direction: column;
@@ -707,16 +707,19 @@ main {
     border-style: solid;
     border-width: 3px;
     border-color: #1E591E;
-    margin: 10px;
 	margin-bottom: 50px;
     padding: 10px;
     background-color: #d8fbd2;
 	border-radius: 10px;
+	width: 50%;
+    margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 #contact-form h3 {
     font-size: 25px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 #contact-heading {
@@ -728,8 +731,15 @@ main {
 	border-radius: 10px;
 }
 
+#contact-from{
+    width: 95%;
+}
+
 
 #contact-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 	font-size: 18px;
     font-weight: 1000;
 	display: block;
@@ -737,16 +747,26 @@ main {
 }
 
 #contact-form input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: medium;
     margin-bottom: 10px;
-    width: 250px;
+    width: 100%;
     padding: 5px;
 	border-radius: 10px;
 }
 #contact-form input[type="message"] /*changing the input box just for message*/
 { 
     height: 70px;
-    width: 95%;
+    width: 100%;
+}
+
+#thank-you
+{
+    display: none;
+	text-align: center;
+    font-size: smaller;
 }
 
 #submission {
@@ -758,9 +778,11 @@ main {
     margin-top: 20px;
     font-size: larger;
     border-radius: 5px;
-    cursor: not-allowed;
+    
 	display: block;
 	text-align: center;
+	cursor: default;
+	background-color: white;
 }
 
 
@@ -774,9 +796,10 @@ main {
     border-width: 3px;
 	border-radius: 10px;
     border-color: #1E591E;
-    margin: 10px;
     padding: 10px;
     background-color: #d8fbd2;
+	width: 50%;
+    margin: 0 auto;
 
 }
 
@@ -802,6 +825,64 @@ main {
     font-size: medium;
     list-style-type: disc;
     margin-left: 20px;
+}
+/* directions style */
+
+.geofinder {
+    text-align: center;
+}
+
+img.scalable-image {		/*changing the image size/scale */
+  max-width: 60%;
+  height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.directions-container:hover {
+    cursor: zoom-in;
+}
+
+.directions {
+    display: flex; /* Use flexbox to arrange the cards in a row */
+    justify-content: space-around; /* Distribute the cards with equal space between them */
+}
+
+.directions .directions-card {
+    width: 30%; /* Set a width for each card to fit three cards in a row */
+    border: 2px solid #1E591E;
+    padding: 10px;
+    margin: 10px; /* Add some margin to create space between the cards */
+    box-sizing: border-box; /* Include padding and border in the card's width */
+}
+
+.directions .directions-card h3 {
+    border-bottom: 2px solid #1E591E;
+    padding-bottom: 5px;
+}
+
+.button-container {				/*making the button in the directions page*/
+    text-align: center;		
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1E591E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #013511;
+}
+
+.continue-shopping {
+    display: block;
+    margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 /* Return link */
