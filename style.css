@@ -1,14 +1,12 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 
 
-
-/* Aneta's CSS */
-/* Landing page style */
-
-
-body, ul, h1, h2, h3, h4, h5, h6 {
+/* Aneta CSS */
+/* Aneta - Landing page style */
+body, 
+ul, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
 }
@@ -51,7 +49,8 @@ header li {
     padding: 15px;
 }
 
-header li a, header li a:link {
+header li a, 
+header li a:link {
     padding: 15px;
     text-decoration: none;
     color: black;
@@ -103,7 +102,7 @@ main .welcome {
     justify-content: center;
     flex-direction: column;
     height: 500px;
-    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif);
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif); /* Photo by Thomas Le on Unsplash */
     background-position: center;
 }
 
@@ -111,7 +110,9 @@ main h1 {
     font-size: 120px;
 }
 
-main h1, main h2, .offer h3 { 
+main h1, 
+main h2, 
+.offer h3 { 
     color: white;
     -webkit-text-stroke: black 1px;
 }
@@ -128,15 +129,15 @@ main .offer {
 }
 
 main .offer1 {
-    background-image: url(images/photo-1591586116988-62fe65164f8d.avif);
+    background-image: url(images/photo-1591586116988-62fe65164f8d.avif);  /* Photo by Shelley Pauls on Unsplash */
 }
 
 main .offer2 {
-    background-image: url(images/photo-1568391047493-d859d5ddb509.avif);
+    background-image: url(images/photo-1568391047493-d859d5ddb509.avif);  /* Photo by Alex Meier on Unsplash */
 }
 
 main .offer3 {
-    background-image: url(images/photo-1545601445-4d6a0a0565f0.avif);
+    background-image: url(images/photo-1545601445-4d6a0a0565f0.avif);  /* Photo by Daria Volkova on Unsplash */
 }
 
 main .offer .offer-card {
@@ -206,10 +207,11 @@ footer {
     background-color: #1E591E;
     padding: 30px 50px 20px 50px;
     box-sizing: border-box;
-    
 }
 
-footer, footer ul li a, footer p a{
+footer, 
+footer ul li a, 
+footer p a {
     color: rgb(224, 224, 224);
 }
 
@@ -227,7 +229,8 @@ footer .footer-menu ul {
     width: 150px;
 }
 
-footer .socials a,  footer .footer-menu ul a{
+footer .socials a, 
+footer .footer-menu ul a{
     text-decoration: none;
     color: #f8f9fa;
 }
@@ -248,7 +251,8 @@ footer .footer-menu li {
     margin: 10px;
 }
 
-footer .authors a, footer .authors a:visited {
+footer .authors a, 
+footer .authors a:visited {
     text-decoration: none;
     color: #f8f9fa;
 }
@@ -257,7 +261,7 @@ footer .authors a:hover {
     color: black;
 }
 
-/* Offer page style */
+/* Aneta - Offer page style */
 
 main .offer-info {
     text-align: center;
@@ -271,7 +275,8 @@ main .offer-info p {
     font-size: 20px;
 }
 
-main .offer-info p a, main .offer-info p a:visited {
+main .offer-info p a, 
+main .offer-info p a:visited {
     text-decoration: none;
     color: #f8f9fa;
 }
@@ -284,7 +289,6 @@ main .offer-veg {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 main .offer-page .offer-card2 {
@@ -301,23 +305,23 @@ main .offer-page h2 {
 }
 
 main .offer-page .veg1 {
-    background-image: url(images/veg1.avif);
+    background-image: url(images/veg1.avif);  /* Photo by Rodrigo dos Reis on Unsplash */
 }
 
 main .offer-page .veg2 {
-    background-image: url(images/veg2.avif);
+    background-image: url(images/veg2.avif); /* Photo by Rodrigo dos Reis on Unsplash */
 }
 
 main .offer-page .veg3 {
-    background-image: url(images/veg3.avif);
+    background-image: url(images/veg3.avif); /* Photo by Rodrigo dos Reis on Unsplash */
 }
 
 main .offer-page .veg4 {
-    background-image: url(images/veg4.avif);
+    background-image: url(images/veg4.avif); /* Photo by Rodrigo dos Reis on Unsplash */
 }
 
 main .offer-page .veg5 {
-    background-image: url(images/veg5.avif);
+    background-image: url(images/veg5.avif);  /* Photo by Jason Leung on Unsplash */
 }
 
 main .offer-page .offer-card2 {
@@ -340,23 +344,23 @@ main .offer-page .offer-fru {
 }
 
 main .offer-page .fru1 {
-    background-image: url(images/fru1.avif);
+    background-image: url(images/fru1.avif); /* Photo by Matheus Cenali on Unsplash */
 }
 
 main .offer-page .fru2 {
-    background-image: url(images/fru2.avif);
+    background-image: url(images/fru2.avif); /* Photo by James Yarema  on Unsplash */
 }
 
 main .offer-page .fru3 {
-    background-image: url(images/fru3.avif);
+    background-image: url(images/fru3.avif); /* Photo by Colin Watts on Unsplash */
 }
 
 main .offer-page .fru4 {
-    background-image: url(images/fru4.avif);
+    background-image: url(images/fru4.avif); /* Photo by engin akyurt on Unsplash */
 }
 
 main .offer-page .fru5 {
-    background-image: url(images/fru5.avif);
+    background-image: url(images/fru5.avif); /* Photo by Olesia Buyar on Unsplash */
 }
 
 main .offer-page .offer-gen {
@@ -365,11 +369,11 @@ main .offer-page .offer-gen {
 }
 
 main .offer-page .gen1 {
-    background-image: url(images/gen1.avif);
+    background-image: url(images/gen1.avif); /* Photo by charlesdeluvio on Unsplash */
 }
 
 main .offer-page .gen2 {
-    background-image: url(images/gen2.avif);
+    background-image: url(images/gen2.avif); /* Photo by George Dagerotip on Unsplash */
 }
 
 main .offer-page {
@@ -393,6 +397,8 @@ main .offer-question input {
     margin-bottom: 10px;
 }
 
+/* Aneta - About page style */
+
 main .about-content {
     display: flex;
     margin: auto;
@@ -403,39 +409,46 @@ main .about-content {
     max-width: 900px;
 }
 
-
-main .about-us, main .about-goal, main .about-list {
+main .about-us, 
+main .about-goal, 
+main .about-list {
     text-align: center;
     margin: auto;
     max-width: 700px;
 }
 
-main .about-us a, main .about-goal a, main .about-list a {
+main .about-us a, 
+main .about-goal a, 
+main .about-list a {
     text-decoration: none;
 }
 
-main .about-us h1, main .about-goal h1, main .about-list h1 {
+main .about-us h1, 
+main .about-goal h1, 
+main .about-list h1 {
     padding: 25px;
     width: 700px;
 }
 
 main .about-us h1 {
     font-size: 90px;
-    background-image: url(images/whoarewe.avif);
+    background-image: url(images/whoarewe.avif); /* Photo by Gabriella Clare Marino on Unsplash */
 }
 
-main .about-us p, main .about-goal p, main .about-list ul {
+main .about-us p, 
+main .about-goal p, 
+main .about-list ul {
     font-size: 17px;
 }
 
 main .about-goal h1 {
     font-size: 90px;
-    background-image: url(images/ourgoal.avif);
+    background-image: url(images/ourgoal.avif); /* Photo by Markus Spiske on Unsplash */
 }
 
 main .about-list h1 {
     font-size: 70px;
-    background-image: url(images/ourachi.avif);
+    background-image: url(images/ourachi.avif); /* Photo by Tim Mossholder on Unsplash */
 }
 
 main .about-info {
@@ -447,6 +460,7 @@ main .about-slider {
     margin: auto;
 }
 
+/* Aneta - Mediaqueries for responsivness */
 
 @media (max-width: 1010px) {
     main .offer .offer-card {
@@ -455,28 +469,35 @@ main .about-slider {
 }
 
 @media (max-width: 828px) {
-    main .about-us h1, main .about-goal h1, main .about-list h1 {
+    main .about-us h1, 
+    main .about-goal h1, 
+    main .about-list h1 {
         width: 400px;
         font-size: 60px;
     }
 
-    main .about-us p, main .about-goal p, main .about-list ul {
+    main .about-us p, 
+    main .about-goal p, 
+    main .about-list ul {
         width: 400px;
     }
 }
 
 @media (max-width: 674px) {
-
     main .welcome h1 {
         font-size: 70px;
     }
 
-    main .about-us h1, main .about-goal h1, main .about-list h1 {
+    main .about-us h1, 
+    main .about-goal h1, 
+    main .about-list h1 {
         width: 400px;
         font-size: 60px;
     }
 
-    main .about-us p, main .about-goal p, main .about-list ul {
+    main .about-us p, 
+    main .about-goal p, 
+    main .about-list ul {
         width: 400px;
     }
 }
@@ -501,7 +522,6 @@ main .about-slider {
         width: 20px
     }
 
-
     header .ham-menu i:hover {
         color: #B5250A;
     }
@@ -509,14 +529,10 @@ main .about-slider {
     header ul {
         display: none;
     }
-
-    
 }
+/* End of Aneta's code */
 
-
-
-
-
+/* Ryan CSS */
 /* Newsletter CSS - Ryan */
 
 #newsletter-container {
@@ -537,7 +553,7 @@ main .about-slider {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif);
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif); /* Photo by Thomas Le on Unsplash */
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -613,6 +629,7 @@ main .about-slider {
     border-width: 3px;
     border-color: #000000;
 }
+
 /* Quiz CSS - Ryan */
 
 #container {
@@ -625,7 +642,7 @@ main .about-slider {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif);
+    background-image: url(images/thomas-le-pRJhn4MbsMM-unsplash.avif); /* Photo by Thomas Le on Unsplash */
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -634,7 +651,6 @@ main .about-slider {
     color: #f5f5f5;
     font-size: 50px;
     text-align: center;
-
 }
 
 #quiz-container {
@@ -688,9 +704,9 @@ main .about-slider {
     border-width: 3px;
     border-color: #000000;
 }
+/* End of Ryan's code */
 
 /* Arisha CSS */
-
 /* Contact style */
 main {
     display: flex;
@@ -699,7 +715,7 @@ main {
     font-family: 'Poppins', sans-serif, Open Sans;
 }
 
-/* contact form container */
+/* Contact form container */
 #contact-container {
     display: flex;
     flex-direction: column;
@@ -723,7 +739,7 @@ main {
 }
 
 #contact-heading {
-    text-decoration: underline; /*double underline code*/
+    text-decoration: underline; /*Double underline code*/
     text-decoration-style: double;
     padding: 5px;
     margin-bottom: 15px;
@@ -743,7 +759,7 @@ main {
 	font-size: 18px;
     font-weight: 1000;
 	display: block;
-	margin-bottom: 10px; /* spacing headers from inputs */
+	margin-bottom: 10px; /* Spacing headers from inputs */
 }
 
 #contact-form input {
@@ -756,7 +772,7 @@ main {
     padding: 5px;
 	border-radius: 10px;
 }
-#contact-form input[type="message"] /*changing the input box just for message*/
+#contact-form input[type="message"] /*Changing the input box just for message*/
 { 
     height: 70px;
     width: 100%;
@@ -770,7 +786,7 @@ main {
 }
 
 #submission {
-    font-family: 'Open Sans', sans-serif; /* changing the font*/
+    font-family: 'Open Sans', sans-serif; /* Changing the font*/
     font-weight: 1000;
     width: 50%;
     height: 40px;
@@ -787,7 +803,7 @@ main {
 
 
 
-/* contact info container */
+/* Contact info container */
 #contact-info {
     display: flex;
     flex-direction: column;
@@ -807,7 +823,7 @@ main {
 #contact-info h3 {
     font-size: larger;
     margin-bottom: 10px;
-	text-decoration: underline; /*double underline code*/
+	text-decoration: underline; /*Double underline code*/
     text-decoration-style: double;
 }
 
@@ -826,13 +842,13 @@ main {
     list-style-type: disc;
     margin-left: 20px;
 }
-/* directions style */
+/* Directions style */
 
 .geofinder {
     text-align: center;
 }
 
-img.scalable-image {		/*changing the image size/scale */
+img.scalable-image {		/*Changing the image size/scale */
   max-width: 60%;
   height: auto;
     display: block;
@@ -861,7 +877,7 @@ img.scalable-image {		/*changing the image size/scale */
     padding-bottom: 5px;
 }
 
-.button-container {				/*making the button in the directions page*/
+.button-container {				/*Making the button in the directions page*/
     text-align: center;		
     margin: 20px 0;
 }
@@ -905,3 +921,4 @@ img.scalable-image {		/*changing the image size/scale */
 #return:hover {
     background-color: #ffffff;
 }
+/* End of Arisha's code */
